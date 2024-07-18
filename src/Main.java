@@ -36,5 +36,24 @@ public class Main {
         } else {
             System.out.println(year + " год не является високосным");
         }
+
+        System.out.println("Task4");
+
+        int deliveryDistance = 95;
+        int intervalDelivery = 40;
+        int deliveryAdditionalDays;
+        var syntaxDelivery = " дня";
+        if (deliveryDistance > 0 && deliveryDistance <= 20) {
+            deliveryAdditionalDays = 0;
+            syntaxDelivery += " день";
+        } else if (deliveryDistance <= deliveryDistance + intervalDelivery){
+            deliveryAdditionalDays = 1;
+        } else if (deliveryDistance <= deliveryDistance + intervalDelivery * 2){
+            deliveryAdditionalDays = 2;
+        } else {
+
+        }
+
+
     }
 }
